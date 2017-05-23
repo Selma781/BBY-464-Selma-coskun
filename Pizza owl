@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/CvEIS16NS665ad33j1CRZU#"
+     xml:base="http://webprotege.stanford.edu/project/CvEIS16NS665ad33j1CRZU"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/CvEIS16NS665ad33j1CRZU"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#editorialNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R58OMUfyAXoLow5LAihv3q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R58OMUfyAXoLow5LAihv3q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCiQxwJuicml1u5gTu35SDF"/>
+        <rdfs:label>Tavuklu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yLZYQjN2rxIEmnis1ZqvK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yLZYQjN2rxIEmnis1ZqvK">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Pizza Base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Hw8ZVQOJFcy4TEi2H78Dg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Hw8ZVQOJFcy4TEi2H78Dg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmBpqaCSlaqBXoyRczHIfp"/>
+        <rdfs:label>Zeytinli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hHDIsI1Oz4bmxq9btDjxO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8hHDIsI1Oz4bmxq9btDjxO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCiQxwJuicml1u5gTu35SDF"/>
+        <rdfs:label>Sucuklu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8mjIw1dX6DYiM3Q2mcISK4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8mjIw1dX6DYiM3Q2mcISK4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFAkQGc6SVVVKksOqG53Ff"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peynir çeşitlerine göre isim alır</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peynirli pizzalar</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kalın-ince hamurlu ya da kenarlı</dc:type>
+        <rdfs:label>Peynirli pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC5ImiqYvaXQ14HaexqtcGb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC5ImiqYvaXQ14HaexqtcGb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmBpqaCSlaqBXoyRczHIfp"/>
+        <rdfs:label>Bol sebzeli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC5UWdjKnucyqhOUNUbZu49 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC5UWdjKnucyqhOUNUbZu49">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8mjIw1dX6DYiM3Q2mcISK4"/>
+        <rdfs:label>Parmesan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCeEfSnmrdgTFXNg1vyzvkR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCeEfSnmrdgTFXNg1vyzvkR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmBpqaCSlaqBXoyRczHIfp"/>
+        <rdfs:label>Mantarlı</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCiQxwJuicml1u5gTu35SDF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCiQxwJuicml1u5gTu35SDF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFAkQGc6SVVVKksOqG53Ff"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Et çeşidine göre isim alır</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">türkçe</dc:language>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malzeme içeriği</dc:subject>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kalın hamurlu, ince hamurlu ya da kenarlarına göre</dc:type>
+        <rdfs:label>Etli Pizzalar</rdfs:label>
+        <skos:editorialNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Müşteri istediği malzemeden kendi pizzasını oluşturabilir.</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCmBpqaCSlaqBXoyRczHIfp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCmBpqaCSlaqBXoyRczHIfp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RFAkQGc6SVVVKksOqG53Ff"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Et içermeyen müşteri isteğine göre hazırlanmış sebzeli pizzalar</dc:description>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vejeteryan Piizalar</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kalın-ince hamurlu ya da kenarlı</dc:type>
+        <rdfs:label>Vejeteryan pizzalar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWaobHLkpJ2uxLqqr2MXXF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDWaobHLkpJ2uxLqqr2MXXF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCiQxwJuicml1u5gTu35SDF"/>
+        <rdfs:label>Salamlı</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RFAkQGc6SVVVKksOqG53Ff -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RFAkQGc6SVVVKksOqG53Ff">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pizza topping</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Pizza Topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKtd2CP02YYzkqaCNqZ7mo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RKtd2CP02YYzkqaCNqZ7mo">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfYGaOTAux97eylE6QveGO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RfYGaOTAux97eylE6QveGO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8mjIw1dX6DYiM3Q2mcISK4"/>
+        <rdfs:label>Mozerella</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza çeşitleri</dc:subject>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Büyük-orta- küçük, kalın- ince hamurlu</dc:type>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+
